@@ -1,0 +1,9 @@
+
+{
+  "name": "CYRA - Ultra-Luxury Real Estate",
+  "description": "A high-end real estate landing page for CYRA, featuring sophisticated white themes, realistic zoom-scroll animations, and ultra-luxury property showcases.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
