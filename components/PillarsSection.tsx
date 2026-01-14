@@ -20,7 +20,7 @@ const Pillars: React.FC = () => {
     {
       title: 'Precision Build',
       desc: 'CYRA demands absolute precision in every foundation. We select only the most resilient materials to ensure that every residence stands as a testament to engineering excellence.',
-      image: 'https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=600'
+      image: '/media/cyra-property-image-1.png'
     },
     {
       title: 'Iconic Design',

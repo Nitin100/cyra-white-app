@@ -24,7 +24,7 @@ const PropertyShowcaseItem: React.FC<{ prop: any, index: number }> = ({ prop, in
           alt={prop.name} 
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[5s] brightness-90"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-white/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-black/30"></div>
       </div>
       
       <div className={`absolute bottom-0 left-0 w-full p-12 md:p-24 transition-all duration-[1.2s] ease-[cubic-bezier(0.19,1,0.22,1)] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-40 opacity-0'}`}>
@@ -60,7 +60,7 @@ const PropertyShowcase: React.FC = () => {
     {
       name: "Pinnacle",
       tagline: "Ultra-Luxury Penthouse",
-      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1200",
+      image: "media/bg-5.png",
       features: ["Private Hangar", "Glass Edge Pool", "24/7 Butler"]
     },
     {

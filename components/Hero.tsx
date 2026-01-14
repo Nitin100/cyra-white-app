@@ -29,11 +29,11 @@ const Hero: React.FC = () => {
         }}
       >
         <img 
-          src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000" 
+          src="/media/banner-1.png" 
           alt="CYRA Luxury Living" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 luxury-gradient-white"></div>
+        <div className="absolute inset-0 luxury-gradient-whites"></div>
       </div>
 
       <div className="relative z-10 text-center px-6">
@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
         
         <div className="flex flex-col items-center gap-6 opacity-0 animate-[fadeIn_1.5s_ease-out_1s_forwards]">
           <button className="group flex flex-col items-center gap-4">
-            <span className="text-black text-[10px] tracking-[0.5em] font-bold uppercase group-hover:text-[#c5a059] transition-colors">Enter Cyra</span>
+            <span className="text-black text-[30px] tracking-[0.5em] font-bold uppercase group-hover:text-[#c5a059] transition-colors">Enter Cyra</span>
             <div className="w-[1px] h-20 bg-gradient-to-b from-[#c5a059] to-transparent group-hover:h-28 transition-all duration-700"></div>
           </button>
         </div>

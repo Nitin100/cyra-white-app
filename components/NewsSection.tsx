@@ -30,7 +30,7 @@ const NewsSection: React.FC = () => {
     {
       title: "CYRA Pinnacle Awarded Best Global Architectural Achievement 2024",
       date: "12 Oct 2024",
-      image: "https://images.unsplash.com/photo-1503387762-592dea58ef23?auto=format&fit=crop&q=80&w=400"
+      image: "/media/cyra-property-image-2.jpg"
     }
   ];
 
